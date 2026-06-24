@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Navigation } from 'lucide-react';
 
-const destinations = [
+export const destinations = [
   {
     id: 'srinagar',
     name: 'Srinagar',

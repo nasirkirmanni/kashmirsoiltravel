@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Packages from './pages/Packages';
 import Destinations from './pages/Destinations';
+import DestinationDetail from './pages/DestinationDetail';
 import Services from './pages/Services';
 
 // Placeholder components for the other routes
@@ -24,6 +25,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="packages" element={<Packages />} />
           <Route path="destinations" element={<Destinations />} />
+          <Route path="destinations/:id" element={<DestinationDetail />} />
           <Route path="activities" element={<Placeholder title="Activities & Experiences" />} />
           <Route path="transport" element={<Placeholder title="Transport Services" />} />
           <Route path="hotels" element={<Placeholder title="Hotel & Houseboat Booking" />} />
