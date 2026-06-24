@@ -28,21 +28,21 @@ export const destinations = [
     name: 'Sonamarg',
     tagline: 'Meadow of Gold',
     description: 'A mesmerizing valley surrounded by glaciers and alpine meadows, perfect for trekking and camping.',
-    image: 'bg-[#2d3a2a]/30'
+    imageSrc: './images/family-tour.png'
   },
   {
     id: 'doodhpathri',
     name: 'Doodhpathri',
     tagline: 'Valley of Milk',
     description: 'A beautiful bowl-shaped valley known for its emerald green meadows and icy streams.',
-    image: 'bg-[#1f2a1d]/30'
+    imageSrc: './images/service_tour_package_1782306220057.png'
   },
   {
     id: 'gurez',
     name: 'Gurez Valley',
     tagline: 'The Hidden Gem',
     description: 'An offbeat destination with rugged mountains, the Kishanganga river, and unique Dard-Shina culture.',
-    image: 'bg-[#3d5638]/30'
+    imageSrc: './images/winter-tour.png'
   }
 ];
 
