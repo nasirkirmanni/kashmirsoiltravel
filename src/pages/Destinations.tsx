@@ -60,13 +60,7 @@ export default function Destinations() {
         {destinations.map((dest) => (
           <Link key={dest.id} to={`/destinations/${dest.id}`} className="group relative h-96 rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-shadow">
             <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
-              {dest.imageSrc ? (
-                <img src={dest.imageSrc} alt={dest.name} className="w-full h-full object-cover" />
-              ) : (
-                <div className={`w-full h-full ${dest.image} flex items-center justify-center text-brand-dark/30 font-medium text-sm`}>
-                  Image: {dest.name}
-                </div>
-              )}
+              <img src={dest.imageSrc} alt={dest.name} className="w-full h-full object-cover" />
             </div>
             
             {/* Gradient overlay */}

@@ -14,17 +14,11 @@ export default function DestinationDetail() {
     <div className="bg-[#f4f7f4] min-h-screen">
       {/* Hero Section */}
       <div className="relative h-[60vh] sm:h-[70vh] w-full overflow-hidden">
-        {destination.imageSrc ? (
-          <img 
-            src={destination.imageSrc} 
-            alt={destination.name} 
-            className="w-full h-full object-cover"
-          />
-        ) : (
-          <div className={`w-full h-full ${destination.image} flex items-center justify-center`}>
-            <span className="text-brand-dark/20 text-4xl font-bold">Image Placeholder</span>
-          </div>
-        )}
+        <img 
+          src={destination.imageSrc} 
+          alt={destination.name} 
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
         
         <div className="absolute inset-0 flex flex-col justify-end px-4 sm:px-6 md:px-10 pb-16 max-w-7xl mx-auto w-full">
