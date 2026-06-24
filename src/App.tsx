@@ -1,4 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+import SplashScreen from './components/SplashScreen';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -18,6 +20,8 @@ const Placeholder = ({ title }: { title: string }) => (
 function App() {
   return (
     <Router>
+      <ScrollToTop />
+      <SplashScreen />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
